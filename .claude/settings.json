@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(.venv/bin/pip list:*)",
+      "Bash(.venv/bin/pip show:*)",
+      "Bash(.venv/bin/python:*)",
+      "Bash(.venv/bin/python3:*)",
+      "Bash(.venv/bin/jupyter:*)",
+      "Bash(.venv/bin/jupyter-nbconvert:*)",
+      "Bash(.venv/bin/ipython:*)",
+      "Bash(/Users/prabinupreti/work/projects/MLCourseworkCrisisDataSet/.venv/bin/python:*)",
+      "Bash(/Users/prabinupreti/work/projects/MLCourseworkCrisisDataSet/.venv/bin/pip:*)",
+      "Bash(/Users/prabinupreti/work/projects/MLCourseworkCrisisDataSet/.venv/bin/jupyter:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(jupyter:*)",
+      "Bash(jupyter-nbconvert:*)",
+      "Bash(pip install:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(wc:*)",
+      "Bash(file:*)",
+      "Bash(echo:*)",
+      "Bash(test:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(sort:*)",
+      "Bash(uniq:*)",
+      "Bash(rm:*)",
+      "Bash(mv:*)",
+      "Bash(cp:*)",
+      "Bash(touch:*)",
+      "Bash(chmod:*)"
+    ]
+  }
+}
