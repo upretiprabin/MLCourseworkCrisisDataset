@@ -64,7 +64,7 @@ RANDOM_STATE = 42
 
 # __file__ is the full path to THIS file (src/utils.py).
 # os.path.dirname(...) goes up one folder. We do it twice to land at the
-# project root (the folder containing CLAUDE.md, src/, notebooks/, ...).
+# project root (the folder containing, src/, notebooks/, ...).
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Convenience paths — every other module imports these instead of hard-coding.
@@ -85,12 +85,7 @@ NOTEBOOKS_DIR = os.path.join(PROJECT_ROOT, "notebooks")
 # ---------------------------------------------------------------------------
 
 # The 16 humanitarian class labels actually present in the English subset of
-# CrisisBench. CLAUDE.md drafted an 11-label list, but the real dataset is
-# richer — it adds categories like `affected_individual`, `disease_related`,
-# `response_efforts`, `personal_update`, `physical_landslide`, and
-# `terrorism_related`, and uses `missing_and_found_people` rather than the
-# longer `missing_trapped_or_found_people`. We keep the canonical list here
-# so the rest of the project agrees on names and ordering.
+# CrisisBench.
 #
 # Order is roughly "biggest classes first" — handy for plot legends.
 HUMANITARIAN_LABELS = [

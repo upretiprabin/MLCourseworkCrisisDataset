@@ -45,7 +45,12 @@ python run_pipeline.py
 ```
 
 End-to-end: load → preprocess → TF-IDF → train all 4 models → evaluate →
-save the best model (by **weighted F1**) to `models/best_model.joblib`.
+save the best model to `models/best_model.joblib`. The winner is chosen
+by **weighted F1** with a noise-tolerant tiebreaker: when the top
+candidates fall within 0.01 weighted F1 of each other (i.e. within seed /
+train-test split noise), we cascade to **macro F1** and then training
+time. On the current run that resolves to **Linear SVM** — also the
+classical baseline used in the published CrisisBench paper.
 
 ## Use the CLI
 
